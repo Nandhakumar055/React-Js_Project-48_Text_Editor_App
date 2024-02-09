@@ -1,0 +1,93 @@
+.text-editor-route-container {
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: #484849;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.text-editor-main-card-container {
+  width: 95%;
+  background-color: black;
+  border-radius: 5px;
+}
+@media screen and (min-width: 576px) {
+  .text-editor-main-card-container {
+    width: 80%;
+    max-width: 700px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-editor-main-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.text-illustration-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .text-illustration-image-container {
+    width: 50%;
+  }
+}
+
+.text-editor-heading {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
+
+.illustration-image {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-card-container {
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 100%;
+  margin: 20px;
+  background-color: #484849;
+}
+@media screen and (min-width: 768px) {
+  .text-card-container {
+    width: 50%;
+  }
+}
+
+.edit-option-container {
+  padding: 10px;
+  display: flex;
+  margin: 0;
+  border-bottom: solid 2px gray;
+}
+
+.text-typing-container {
+  padding: 10px;
+}
+
+.text-area {
+}
+@media screen and (min-width: 768px) {
+  .text-area {
+    height: 60vh;
+  }
+}
+
+.bold-style {
+  font-weight: 600;
+}
+.italic-style {
+  font-family: italic;
+}
+.underline-style {
+  text-decoration: underline;
+}
