@@ -17,19 +17,6 @@ class TextEditor extends Component {
     isTextUnderline: false,
   }
 
-  clickEditItem = id => {
-    this.setState(prevState => ({
-      textEditToolList: [
-        ...prevState.textEditToolList.map(eachItem => {
-          if (eachItem.id === id) {
-            return {...eachItem, isSelected: !eachItem.isSelected}
-          }
-          return {...eachItem}
-        }),
-      ],
-      textStyle: !prevState.textStyle,
-    }))
-  }
 
   onClickBold = () => {
     this.setState(prevState => ({isTextBold: !prevState.isTextBold}))
